@@ -1,16 +1,28 @@
-# superhero_app
 
-A new Flutter project.
+# <p align="center">Superhero app</p>
 
-## Getting Started
+$${Hecho \space con \space \color{blue}Flutter}$$
 
-This project is a starting point for a Flutter application.
+Aplicación que obtiene y muestra información de un super héroe
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*****
+## <g>DEV</g>
+* Obtener **Access Token** de [superheroapi](https://superheroapi.com/)
+* Cambiar el nombre de `.env.template` a `.env`
+* Copiar el Access Token en el `.env > SUPERHEROAPI`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+*****
+## <pu>Stack</pu>
+* Flutter
+
+
+
+
+*****
+## <pu>Dependecias usadas</pu>
+* get
+* flutter_dotenv
