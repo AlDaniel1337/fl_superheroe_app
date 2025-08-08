@@ -5,7 +5,7 @@ import 'package:superhero_app/core/plugins/dotenv.dart';
 
 void main() async {
 
-  await EnvKeys.loadEnv();
+  await Env.loadEnv();
 
   runApp(const MyApp());
 }
