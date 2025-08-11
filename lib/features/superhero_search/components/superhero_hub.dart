@@ -32,7 +32,10 @@ class SuperheroHub extends StatelessWidget {
         
             final superheroData = superheroController.superheroData.result?[index];
         
-            return SuperheroImage( superheroData: superheroData!, );
+            return GestureDetector(
+              onTap: () => superheroController.goToDetails( superheroData ),
+              child: SuperheroImage( superheroData: superheroData!, )
+            );
           }
         ),
       );
