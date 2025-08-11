@@ -17,7 +17,7 @@ class SuperheroSearchPage extends StatelessWidget {
     return Scaffold(
    
       appBar: AppBar(
-        title: const Text('SuperheroSearchPage'),
+        title: const Text('Buscar'),
         centerTitle: true,
       ),
    
